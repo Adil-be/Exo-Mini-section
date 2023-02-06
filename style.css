@@ -2,7 +2,7 @@
 
 body {
   font-family: "Urbanist", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   padding: 0;
   margin: 0;
 }
@@ -42,13 +42,12 @@ ul {
   display: flex;
   list-style: none;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: 4.5vw;
   padding: 0;
 }
 
 ul li {
   width: 30%;
-  margin: 0;
 }
 
 ul li img {
@@ -61,5 +60,5 @@ ul p {
   text-align: center;
   font-size: 25px;
   font-weight: 700;
-  padding: 15px;
+  padding: 10px;
 }
