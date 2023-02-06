@@ -14,7 +14,8 @@ h1 {
 
 .container {
   width: 85%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ****** Main ***** */
@@ -37,24 +38,26 @@ main > img {
 
 /* ****** section gallery ***** */
 
-.gallery {
+ul {
   display: flex;
+  list-style: none;
   justify-content: space-between;
   margin-top: 60px;
+  padding: 0;
 }
 
-.gallery figure {
+ul li {
   width: 30%;
   margin: 0;
 }
 
-.gallery figure img {
+ul li img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
-.gallery figcaption {
+ul p {
   text-align: center;
   font-size: 25px;
   font-weight: 700;
